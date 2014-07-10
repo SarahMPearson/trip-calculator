@@ -29,7 +29,6 @@ var trueCarMPG;
   if (speed <=55) {
       console.log(mpgRating);
   }else if (vehical ==="car") {
-    debugger;
     var difCar = speed - 55;
       for(var i = 1;  i <= difCar; i++){
         trueCarMPG = mpgRating - 1;
